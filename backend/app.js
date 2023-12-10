@@ -25,7 +25,7 @@ app.use("/admin", adminRouter);
 app.use("/movies", movieRouter);
 app.use("/booking", bookingRouter);
 
-mongoose.connect("mongodb+srv://dev-sach-nov:dev123sach456@november-mov-cluster.n6s2te5.mongodb.net/"
+mongoose.connect(//"serverlink"
 ).then(() => app.listen(3000,() => {
     console.log("Connected to server on port 3000");
 })
