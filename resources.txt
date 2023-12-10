@@ -8,3 +8,9 @@ npm i express
 npm i nodemon
 npm i react-router-dom
 npm i mongodb
+npm i dotenv
+npm i mongoose
+npm i bcrypt
+
+username: dev-sach-nov
+password: dev123sach456
